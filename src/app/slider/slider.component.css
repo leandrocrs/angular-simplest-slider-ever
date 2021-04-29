@@ -1,0 +1,12 @@
+.slider {
+  border: 5px solid red;
+  display: flex;
+  padding: 1rem;
+  list-style: none;
+  overflow-x: auto;
+  width: 100vw;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}

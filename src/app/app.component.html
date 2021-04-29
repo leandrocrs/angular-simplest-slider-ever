@@ -1,0 +1,10 @@
+<h1>Angular simplest slider ever</h1>
+<p>Scroll/swipe right/left</p>
+
+<app-slider>
+  <app-slide *ngFor="let item of [1, 2, 3, 4, 5]">
+    <div class="demo-slide">
+      <span>slide {{ item }}</span>
+    </div>
+  </app-slide>
+</app-slider>
